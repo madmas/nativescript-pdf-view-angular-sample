@@ -1,0 +1,4 @@
+= NativeScript PDFView Sample with Angular
+
+This repository contains a little sample to demonstrate the use of the https://github.com/madmas/nativescript-pdf-view[nativescript-pdf-view] plugin in a NativeScript app written with Angular.
+
