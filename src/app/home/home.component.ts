@@ -15,10 +15,10 @@ export class HomeComponent implements OnInit {
       ];
 
       private current = 0;
-      public pdfUrl = 'https://www.mynethome.de/content/Markus-Schlichting-Lebendige-Dokumentation-mit-AsciiDoctor.pdf';
+      public pdfUrl;
 
     constructor() {
-        this.changePDF();
+       // this.changePDF();
     }
 
     ngOnInit(): void {
