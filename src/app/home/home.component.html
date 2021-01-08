@@ -16,6 +16,6 @@
 </ActionBar>
 
 <GridLayout class="page__content" columns="*" rows="auto, *">
-    <Button row="0" col="0"  class="btn -primary" text="change PDF" (tap)="changePDF()"></Button>
+    <Button row="0" col="0"  class="btn -primary" text="Change PDF" (tap)="changePDF()"></Button>
     <PDFView row="1" col="0" [src]="pdfUrl" (load)="onLoad()"></PDFView>
 </GridLayout>
